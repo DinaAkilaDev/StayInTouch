@@ -39,7 +39,6 @@ class ContactController extends Controller
         $contacts = Contact::find($id);
         return view('editcontact')->with(compact('contacts'));
     }
-
     public function addeditcontact(Request $request)
     {
 
